@@ -1,0 +1,17 @@
+{
+  "name": "@considonet/getpostparams",
+  "version": "1.0.0",
+  "description": "An axios helper providing cross-browser polyfilled URLSearchParams object for POST requests",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gstrap"
+  ],
+  "author": "ConsidoNet Solutions Paweł Gabryelewicz",
+  "license": "MIT",
+  "dependencies": {
+	"url-search-params-polyfill": "^2.0.1"
+  }
+}
