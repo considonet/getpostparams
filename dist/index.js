@@ -1,12 +1,10 @@
-"use strict";
+'use strict';
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
+require('url-search-params-polyfill');
 
-require("url-search-params-polyfill");
-
-exports.default = function (data) {
+var index = (function (data) {
 
   return new URLSearchParams(data);
-};
+});
+
+module.exports = index;
